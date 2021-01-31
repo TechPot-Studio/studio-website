@@ -18,7 +18,7 @@ export default class NotFoundPage extends React.Component {
                 </div>
                 <br />
                 <br />
-                <Link to="/"><Button>HomePage</Button></Link>
+                <Link to="/"><Button size="lg">HomePage</Button></Link>
             </div>
         );
     }

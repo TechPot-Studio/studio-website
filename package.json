@@ -11,15 +11,25 @@
     "rsuite": "^4.8.8"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "customize-cra": "^1.0.0",
+    "less": "^3.13.1",
+    "less-loader": "^5.0.0",
+    "postcss-normalize": "^9.0.0",
+    "react-app-rewired": "^2.1.8",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1"
+  }
 }

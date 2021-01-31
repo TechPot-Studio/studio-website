@@ -1,19 +1,5 @@
 import React from 'react';
-import './Home.css';
-import { Panel, Grid, Row, Col } from 'rsuite';
-
-const products = [
-    ['Pecis', 'A tool set to make web development easier', 'https://via.placeholder.com/500x500'],
-    ['DataPack Planet', 'A text editor for Minecraft DataPacks', 'https://via.placeholder.com/500x500'],
-    ['TechPot Minecraft Launcher', 'A Minecraft launcher built with Electron', 'https://via.placeholder.com/500x500'],
-    ['PlaceHolder', 'Description', 'https://via.placeholder.com/500x500'],
-    ['PlaceHolder', 'Description', 'https://via.placeholder.com/500x500'],
-    ['PlaceHolder', 'Description', 'https://via.placeholder.com/500x500'],
-    ['Product Name', 'Description', 'Icon Path'],
-]
-
-const cardHeight = 420
-
+import './Home.less';
 export default class HomePage extends React.Component {
     render() {
         return [
@@ -22,7 +8,7 @@ export default class HomePage extends React.Component {
                 ... and a brand new world you are going to explore with us!
             </div>,
             <div>
-                <Grid fluid>
+                {/*<Grid fluid>
                     <Row gutter={8}>
                         <Col xs={4}>
                             <Panel shaded bordered bodyFill style={{ display: 'inline-block', height: cardHeight }}>
@@ -73,7 +59,7 @@ export default class HomePage extends React.Component {
                             </Panel>
                         </Col>
                     </Row>
-                </Grid>
+                </Grid> */}
             </div>
         ]
     }
